@@ -269,3 +269,37 @@ textarea.input-fields {
     height: 100px;
     resize: both;
 }
+
+.footer {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #FFFFFF;
+}
+
+.footer-text {
+    margin-bottom: 20px;
+}
+
+.footer-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.footer-logo {
+    font-size: 100px;
+    font-weight: bolder;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 0px;
+}
