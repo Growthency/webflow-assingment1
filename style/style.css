@@ -193,3 +193,79 @@
 .started-button {
     margin: 20px 0px;
 }
+
+.newsletter-text h1 {
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.newsletter-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.newsletter {
+    background-color: #F5F8FF;
+    padding: 100px 0px;
+}
+
+.newsletter-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 400px;
+    align-items: center;
+    gap: 40px;
+}
+
+.form-text {
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: medium;
+    margin-bottom: 5px;
+}
+
+.newsletter-form input[type="email"],
+.newsletter-form input[type="text"],
+.newsletter-form textarea {
+    height: 38px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.input-fields {
+    margin-top: 10px;
+    width: 497px !important;
+}
+
+.footer-btn {
+    display: block;
+    margin: 0px auto;
+    padding: 20px 0px;
+    background-color: #4E47FF;
+    border: none;
+    color: #ffffff;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.footer-btn:hover {
+    display: block;
+    margin: 0px auto;
+    padding: 20px 0px;
+    background-color: #1d16ec;
+    border: none;
+    color: #ffffff;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+textarea.input-fields {
+    height: 100px;
+    resize: both;
+}
