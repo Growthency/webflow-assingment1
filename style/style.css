@@ -140,3 +140,34 @@
 .productive-subheading {
     color: #83838A;
 }
+
+.rating-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 190px;
+    margin-top: 5em;
+}
+
+.user-rating {
+    background-color: #F5F8FF;
+    padding: 25px 200px;
+}
+
+.rating-items {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px 40px;
+}
+
+.avator-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.avator-container img {
+    border-radius: 50%;
+    margin-right: 10px;
+    ;
+}
